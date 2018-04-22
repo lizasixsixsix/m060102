@@ -166,6 +166,7 @@
     <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Schemes\" />
     <Folder Include="01" />
     <Folder Include="02" />
+    <Folder Include="01\0101" />
   </ItemGroup>
   <ItemGroup>
     <BuildContributorArgument Include="OutDir=$(OutDir)" />
@@ -201,7 +202,7 @@
     <None Include="Scripts\Post-Deployment\EmployeeTerritories.sql">
       <SubType>NotInBuild</SubType>
     </None>
-    <None Include="01\Test.sql" />
+    <None Include="01\0101\010101.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Northwind\Tables\CustomerDemographics.table.sql">
