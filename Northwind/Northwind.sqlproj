@@ -171,6 +171,7 @@
     <Folder Include="01\0103" />
     <Folder Include="01\0104" />
     <Folder Include="02\0201" />
+    <Folder Include="02\0202" />
   </ItemGroup>
   <ItemGroup>
     <BuildContributorArgument Include="OutDir=$(OutDir)" />
@@ -219,6 +220,7 @@
     <None Include="02\0201\020101.sql" />
     <None Include="02\0201\020102.sql" />
     <None Include="02\0201\020103.sql" />
+    <None Include="02\0202\020201.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Northwind\Tables\CustomerDemographics.table.sql">
