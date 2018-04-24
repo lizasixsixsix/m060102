@@ -231,6 +231,7 @@
     <None Include="02\0203\020301.sql" />
     <None Include="02\0203\020302.sql" />
     <None Include="02\0204\020401.sql" />
+    <None Include="02\0204\020402.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Northwind\Tables\CustomerDemographics.table.sql">
