@@ -1,4 +1,4 @@
-﻿select Count(
+﻿select count(
            case
 		       when ShippedDate is null then 0
 			   else null

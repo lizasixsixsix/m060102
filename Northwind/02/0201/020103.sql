@@ -1,3 +1,3 @@
-﻿select Count(
+﻿select count(
            distinct CustomerID)
     from Northwind.Orders
