@@ -1,10 +1,10 @@
 ﻿select Customers.City,
        CompanyName
-	       as 'Customer',
+           as 'Customer',
        concat(LastName, ' ', FirstName)
-	       as 'Seller'
+           as 'Seller'
     from Northwind.Customers,
-	     Northwind.Employees
+         Northwind.Employees
     where Customers.City = Employees.City
     order by 'Customer',
-	         'Seller'
+             'Seller'

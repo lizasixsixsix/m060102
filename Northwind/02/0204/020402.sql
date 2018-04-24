@@ -2,10 +2,10 @@
            as 'Employee'
     from Northwind.Employees
     where exists
-	    (
+        (
             select *
-			    from Northwind.Orders
+                from Northwind.Orders
                 where Employees.EmployeeID = Orders.EmployeeID
 
-				having count(*) > 150
+                having count(*) > 150
         )
